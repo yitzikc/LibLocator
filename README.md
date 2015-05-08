@@ -15,6 +15,9 @@ file. The library provides a simple API that accomplishes this on Linux.
 Specifically, when the application is dynamically linked with multiple versions of the same library (a real
 use-case I have to deal with), it's possible to to request the path of a specific version.
 
+## Example
+See the included main.cpp for usage examples
+
 ## Building
 Pre-requisites:
 * boost_system and boost_filesystem libraries.
